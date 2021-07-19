@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main_navbar{
+    height: 50px;
+    width: 100%;
+    background: rgb(38, 42, 46);
+}
+
+.main_navbar ul{
+    float: left;
+    margin-left: 250px;
+}
+
+.main_navbar ul li{
+    list-style: none;
+    margin-right: 30px;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.main_navbar ul li a{
+    text-decoration: none;
+    color: white;
+    /* padding: 6px 13px; */
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.main_navbar ul li a:hover{
+    text-decoration: underline;
+    border-radius: 2px;
+
+}
+
+.date{
+    float: right;
+    color: white;
+    line-height: 50px;
+    margin-right: 300px;
+
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background: rgb(0, 130, 160);
+}
+
+.navbar ul{
+    float: left;
+    margin-left: 250px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-right: 30px;
+    display: inline-block;
+    line-height: 70px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    /* padding: 6px 13px; */
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.navbar ul li .active{
+    font-size: 22px;
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline;
+    border-radius: 2px;
+
+}
+
+.article_info{
+    margin-left: 250px;
+    margin-right: 500px;
+    margin-bottom: 30px;
+
+    align-items: center;
+    display: flex;
+    clear: both;
+
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.article_date{
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 500px;
+
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+.author_img{
+    width: 90;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.rating_stars{
+    width: 100;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.gps_info{
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    float: left;
+    align-items: center;
+    display: block;
+
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.gps_icon{
+    float: left;
+    width: 50;
+    height: auto;
+
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.intro_text{
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+figure {
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    width: 600;
+    height: auto;
+    text-align: right;
+
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+img {
+    width: 600;
+    height: auto;
+
+    margin-bottom: 10px;
+
+    display: block;
+}
+
+.article_title{
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 500px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2{
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 35px 280px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.buttons .btn{
+    margin-left: 25px;
+}
+
+.buttons button:hover{
+    background: rgb(255, 123, 123);
+}
+
+.main_text{
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 500px;
+    margin-bottom: 200px;
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+.article_rating{
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-bottom: 75px;
+
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.article_rating_stars{
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.num_of_readers{
+/*     margin-left: 20px; */
+
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    margin-top: 200px;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+
+.end_of_page{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.button {
+    background-color: rgb(0, 130, 160);;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .next_page_btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(0, 130, 160);;
+  }
+  
+  .next_page_btn:hover {
+    background-color: rgb(0, 130, 160);;
+    color: white;
+  }
+
+
+
+  .page_nums {
+    margin-top: 80px;
+}
+  .num_btn {
+    font-size: 15px;
+    padding: 12px 18px;
+
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(0, 130, 160);
+  }
+
+  .num_btn:hover {
+    background-color: rgb(0, 130, 160);;
+    color: white;
+  }
+
+  .this_page_btn {
+    font-size: 15px;
+    padding: 12px 18px;
+
+    background-color: rgb(0, 130, 160);; 
+    color: white; 
+    border: 2px solid rgb(0, 130, 160);
+  }
